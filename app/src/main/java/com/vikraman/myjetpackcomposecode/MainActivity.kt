@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             MyJetpackComposeCodeTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "MyVikramanAndroid",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
